@@ -47,7 +47,7 @@ export function EducationSection() {
               </span>
               <span className="inline-flex items-center gap-1.5 rounded-md border bg-muted/50 px-3 py-1.5 text-sm font-medium">
                 <Star className="h-3.5 w-3.5 text-yellow-500" />
-                GPA 3.54
+                GPA 3.63
               </span>
             </div>
           </div>
