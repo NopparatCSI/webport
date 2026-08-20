@@ -107,7 +107,7 @@ export default function AboutPage() {
               {...fadeUp(0.24)}
               className="mt-6 border-l-2 border-muted-foreground/30 pl-4 text-sm italic text-muted-foreground"
             >
-              "ไม่มีใครเก่งแต่เริ่ม คนที่ปรับตัวได้คือคนที่อยู่รอด"
+              &ldquo;ไม่มีใครเก่งแต่เริ่ม คนที่ปรับตัวได้คือคนที่อยู่รอด&rdquo;
             </motion.blockquote>
           </div>
 
@@ -195,7 +195,7 @@ export default function AboutPage() {
             <div>
               <h3 className="font-semibold">Deep-dive learning approach</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                I genuinely enjoy reading code — whether it's an open-source library or a
+                I genuinely enjoy reading code — whether it&apos;s an open-source library or a
                 Stack Overflow answer. My typical workflow when tackling something new:
               </p>
               <ul className="mt-3 space-y-1.5 text-sm text-muted-foreground">

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, ExternalLink, ArrowRight } from "lucide-react";
+import { Mail, MapPin, ExternalLink, ArrowRight } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -12,11 +12,6 @@ const contactLinks = [
     icon: Mail,
     label: "nopparat.suws@gmail.com",
     href: "mailto:nopparat.suws@gmail.com",
-  },
-  {
-    icon: Phone,
-    label: "064-417-7206",
-    href: "tel:+66644177206",
   },
   {
     icon: MapPin,
