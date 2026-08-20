@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Resume Site",
+  title: "Nopparat ResumeSite",
   description: "Resume website powered by Next.js.",
 };
 
