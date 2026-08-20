@@ -3,14 +3,24 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { FolderOpen, ArrowRight } from "lucide-react";
+import { Code2, ArrowRight } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const projects = [
-  { title: "Project Alpha", description: "Full-stack web application — coming soon." },
-  { title: "Project Beta", description: "REST API service with JWT auth — coming soon." },
-  { title: "Project Gamma", description: "Database-driven dashboard — coming soon." },
+  {
+    title: "NongPla AI",
+    description: "AI chatbot for Thailand fisheries and aquatic resources, powered by a RAG pipeline.",
+  },
+  {
+    title: "FootC - Footwear E-Commerce",
+    description: "Full-stack e-commerce platform with multi-role admin, orders, and sales metrics.",
+    image: "/footc/footc-01.png",
+  },
+  {
+    title: "SlideMe - Admin Dashboard",
+    description: "Back-office dashboard for a slide truck towing platform with provider and vehicle management.",
+  },
   {
     title: "Point of Sale & Inventory Management",
     description: "Full-stack POS system with RBAC, stock management, and payment workflows.",
@@ -61,13 +71,13 @@ export function ProjectsSection() {
               </div>
             ) : (
               <div className="flex h-48 items-center justify-center border-b bg-muted/50">
-                <FolderOpen className="h-8 w-8 text-muted-foreground" />
+                <Code2 className="h-8 w-8 text-muted-foreground" />
               </div>
             )}
 
             <div className="flex flex-1 flex-col p-5">
               <span className="mb-3 inline-flex w-fit rounded-full bg-muted px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
-                {project.image ? "Featured" : "Coming soon"}
+                Featured project
               </span>
 
               <h3 className="text-base font-semibold">{project.title}</h3>
